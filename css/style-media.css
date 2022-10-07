@@ -1,12 +1,14 @@
 /* Media query per tablet */
 @media screen and (max-width: 768px) {
     .container{
-        width: 728px;
+        width: 95vw;
     }
 }
 
 
 /* Media query per smartphone */
 @media screen and (max-width: 480px) {
-    
+    .container{
+        width: 100%;
+    }
 }
