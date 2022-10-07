@@ -11,4 +11,32 @@
     .container{
         width: 100%;
     }
+
+    .row{
+        flex-direction: column;
+        row-gap: 3rem;
+    }
+
+    .lessons .col,
+    .steps .col,
+    .why-us .col-left,
+    .why-us .col-right{
+        width: 90%;
+        margin: auto;
+    }
+    
+    section.steps{
+        margin-bottom: unset;
+    }
+
+    section.why-us{
+        background-color: #222222;
+        margin-bottom: unset;
+        padding-top: 3rem;
+    }
+
+    h2{
+        width: 80%;
+        margin: 0 auto 2.5rem;
+    }
 }
