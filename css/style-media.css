@@ -1,7 +1,10 @@
 /* Media query per tablet */
 @media screen and (max-width: 768px) {
-
+    .container{
+        width: 728px;
+    }
 }
+
 
 /* Media query per smartphone */
 @media screen and (max-width: 480px) {
